@@ -1,5 +1,11 @@
 # Engineering Review Notes: EDM Power Stage BOM and Simulation Concerns
 
+## Current status, 2026-10-26
+
+The July notes below are historical. The R9 TBD placeholder has now been replaced by a blank LCSC field and the exact original 90 milliohm manufacturer part number in an enriched BOM. Additional confirmed procurement metadata errors have been corrected in the KiCad schematic instances, PCB footprints and CSVs. See [BOM reconciliation](bom-reconciliation.md) and the [quotation package](../quote/README.md) for current files, evidence, unresolved ferrite-bead/copper questions, and supplier instructions. Thermal validation and electrical redesign remain open. Existing PDFs and interactive HTML BOMs were not regenerated.
+
+## July review record
+
 Date: 2026-07-08
 Branch: `aoi/edm-bom-simulation-review`
 

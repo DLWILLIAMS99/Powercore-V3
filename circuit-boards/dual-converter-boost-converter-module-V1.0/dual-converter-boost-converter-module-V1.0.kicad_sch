@@ -5916,7 +5916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer#" "TDK Corporation"
+		(property "Manufacturer#" "C5750X6S2W225KT000N"
 			(at 387.35 38.1 0)
 			(effects
 				(font
@@ -7162,7 +7162,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C375525"
+		(property "LCSC Part #" ""
 			(at 247.65 139.7 0)
 			(effects
 				(font
@@ -7689,7 +7689,7 @@
 				)
 			)
 		)
-		(property "Manufacturer#" "13-RC0603FR-132K2LCT-ND"
+		(property "Manufacturer#" "RC0603FR-132K2L"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -8379,7 +8379,7 @@
 				)
 			)
 		)
-		(property "Manufacturer#" "13-RC0603FR-132K2LCT-ND"
+		(property "Manufacturer#" "RC0603FR-132K2L"
 			(at 95.25 133.35 0)
 			(effects
 				(font
@@ -8669,7 +8669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer#" "TDK Corporation"
+		(property "Manufacturer#" "C5750X6S2W225KT000N"
 			(at 361.95 38.1 0)
 			(effects
 				(font
@@ -9131,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer#" "AT0603BRD0749K3L"
+		(property "Manufacturer#" "RT0603BRD0749K3L"
 			(at 158.75 171.45 0)
 			(effects
 				(font

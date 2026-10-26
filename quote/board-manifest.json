@@ -1,0 +1,320 @@
+{
+  "scope": "Quotation only; existing Gerbers unchanged; PCB properties updated without geometry edits.",
+  "boards": [
+    {
+      "board": "boost-converter-module",
+      "revision": "G",
+      "components": 29,
+      "rows": 17,
+      "dimensions": {
+        "width_mm": 70,
+        "height_mm": 34,
+        "note": "Bounding box of Edge.Cuts endpoints/midpoints; supplier CAM must confirm routed dimensions."
+      },
+      "tht_or_manual_components": 1,
+      "smd_components": 28,
+      "placement_offsets": [
+        {
+          "reference": "C14",
+          "centroid_minus_footprint_origin_mm": [
+            19.5,
+            0
+          ],
+          "rotation_difference_degrees": 0
+        }
+      ],
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "thickness_mm": 0.035
+        },
+        {
+          "layer": "In1.Cu",
+          "thickness_mm": 0.0152
+        },
+        {
+          "layer": "In2.Cu",
+          "thickness_mm": 0.0152
+        },
+        {
+          "layer": "B.Cu",
+          "thickness_mm": 0.035
+        }
+      ],
+      "fabrication_source": "circuit-boards/dual-converter-boost-converter-module-V1.0/production/Boost_Converter_Module_G.zip",
+      "fabrication_sha256": "c1e973cf43c42efadcde8895f86c2e2a2cd97acf24619c266673b2760c64b7bc"
+    },
+    {
+      "board": "motherboard",
+      "revision": "H",
+      "components": 94,
+      "rows": 29,
+      "dimensions": {
+        "width_mm": 230,
+        "height_mm": 76,
+        "note": "Bounding box of Edge.Cuts endpoints/midpoints; supplier CAM must confirm routed dimensions."
+      },
+      "tht_or_manual_components": 32,
+      "smd_components": 62,
+      "placement_offsets": [
+        {
+          "reference": "C11",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "C13",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "C16",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "C6",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "C7",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "D7",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "J1",
+          "centroid_minus_footprint_origin_mm": [
+            2.5,
+            -1.75
+          ],
+          "rotation_difference_degrees": 0
+        },
+        {
+          "reference": "J2",
+          "centroid_minus_footprint_origin_mm": [
+            -2.5,
+            1.75
+          ],
+          "rotation_difference_degrees": 0
+        },
+        {
+          "reference": "R1",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "R12",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "R15",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "R19",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "R2",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "R20",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "R26",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "R3",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "R4",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        },
+        {
+          "reference": "U6",
+          "centroid_minus_footprint_origin_mm": [
+            0,
+            0
+          ],
+          "rotation_difference_degrees": 180
+        }
+      ],
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "thickness_mm": 0.035
+        },
+        {
+          "layer": "In1.Cu",
+          "thickness_mm": 0.0152
+        },
+        {
+          "layer": "In2.Cu",
+          "thickness_mm": 0.0152
+        },
+        {
+          "layer": "In3.Cu",
+          "thickness_mm": 0.035
+        },
+        {
+          "layer": "In4.Cu",
+          "thickness_mm": 0.035
+        },
+        {
+          "layer": "B.Cu",
+          "thickness_mm": 0.035
+        }
+      ],
+      "fabrication_source": "circuit-boards/dual-converter-motherboard-V1.0/production/Dual_Converter_Motherboard_H.zip",
+      "fabrication_sha256": "03d35ca59a5cda10e7b235645ad3265f65dcd79f2d9804ae6880337c3e631507"
+    },
+    {
+      "board": "pi-filter-module",
+      "revision": "G",
+      "components": 44,
+      "rows": 4,
+      "dimensions": {
+        "width_mm": 83,
+        "height_mm": 70,
+        "note": "Bounding box of Edge.Cuts endpoints/midpoints; supplier CAM must confirm routed dimensions."
+      },
+      "tht_or_manual_components": 2,
+      "smd_components": 42,
+      "placement_offsets": [
+        {
+          "reference": "C4",
+          "centroid_minus_footprint_origin_mm": [
+            21,
+            0
+          ],
+          "rotation_difference_degrees": 0
+        },
+        {
+          "reference": "C6",
+          "centroid_minus_footprint_origin_mm": [
+            -21,
+            0
+          ],
+          "rotation_difference_degrees": 0
+        }
+      ],
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "thickness_mm": 0.035
+        },
+        {
+          "layer": "In1.Cu",
+          "thickness_mm": 0.0152
+        },
+        {
+          "layer": "In2.Cu",
+          "thickness_mm": 0.0152
+        },
+        {
+          "layer": "B.Cu",
+          "thickness_mm": 0.035
+        }
+      ],
+      "fabrication_source": "circuit-boards/dual-converter-pi-filter-module-V1.0/production/Dual-Converter-Pi-FIlter-Module_G.zip",
+      "fabrication_sha256": "bb3459af79a53361f8095a8e7fa291dd7e1e548e8fa28fc8fa1d980a61f4bff1"
+    },
+    {
+      "board": "power-management-module",
+      "revision": "G",
+      "components": 49,
+      "rows": 10,
+      "dimensions": {
+        "width_mm": 38,
+        "height_mm": 70,
+        "note": "Bounding box of Edge.Cuts endpoints/midpoints; supplier CAM must confirm routed dimensions."
+      },
+      "tht_or_manual_components": 0,
+      "smd_components": 49,
+      "placement_offsets": [],
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "thickness_mm": 0.035
+        },
+        {
+          "layer": "In1.Cu",
+          "thickness_mm": 0.0152
+        },
+        {
+          "layer": "In2.Cu",
+          "thickness_mm": 0.0152
+        },
+        {
+          "layer": "B.Cu",
+          "thickness_mm": 0.035
+        }
+      ],
+      "fabrication_source": "circuit-boards/dual-converter-power-management-module-V1.0/production/Power_Management_Module_G.zip",
+      "fabrication_sha256": "afa645bf8ace5c5856d6e47ddbd72d582bb92cbd2045a7f532a3b6eb7732eac0"
+    }
+  ]
+}
