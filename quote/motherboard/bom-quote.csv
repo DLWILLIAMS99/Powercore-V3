@@ -1,0 +1,30 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #,Manufacturer,Manufacturer Part Number,Distributor Part Number,Quote status,Notes
+"C1, C10, C13, C6, C8, C9",0603,6,220 nF,C726565,YAGEO,AC0603KRX7R9BB224,13-AC0603KRX7R9BB224CT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+C11,1210,1,0.1 uF,C141218,KEMET,C1210C104KCRACTU,399-C1210C104KCRACTUCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"C14, C15, C16, C2",0603,4,10000 pF,C115056,YAGEO,CC0603JRX7R9BB103,311-1778-1-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+C3,0805,1,10 nF,C342860,TDK Corporation,C2012X7T2W103K085AA,445-7750-1-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+C7,0805,1,0.47 uF,C596323,YAGEO,CC0805KKX7R0BB474,13-CC0805KKX7R0BB474CT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"D1, D2, D8",D_SMA,3,US1M-13-F,C99333,Diodes Incorporated,US1M-13-F,US1M-FDICT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"D10, D6, D7",D_SMA,3,D_Zener,C110525,Diodes Incorporated,SMAZ18-13-F,SMAZ18-FDICT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"D3, D4, D5",STPSC20065GY-TR,3,STPSC20065GY-TR,C2965441,STMicroelectronics,STPSC20065GY-TR,497-18025-1-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+D9,D_SOD-323,1,D_Zener,C82043,onsemi,MM3Z18VT1G,MM3Z18VT1GOSCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"J1, J2",2601-1102,2,2601-1102,C7509568,WAGO Corporation,2601-1102,2946-2601-1102-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+J3,S4B-XH-SM4-TB,1,S4B-XH-SM4-TB,C161861,JST Sales America Inc.,S4B-XH-SM4-TB,455-2262-1-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+L1,0402,1,BBUP00100505330Y00,,,,,HOLD,Design value BBUP00100505330Y00 (33 ohm @100MHz) conflicts with manufacturer MPN BLM15AX100SN1D (10 ohm @100MHz). Original supplier ID C668299 unverified. Quote both candidates separately; select before ordering.
+"POGO1, POGO10, POGO11, POGO12, POGO13, POGO14, POGO15, POGO16, POGO17, POGO18, POGO19, POGO2, POGO20, POGO21, POGO22, POGO23, POGO24, POGO25, POGO26, POGO27, POGO28, POGO29, POGO3, POGO30, POGO4, POGO5, POGO6, POGO7, POGO8, POGO9",0906-8-15-20-76-14-11-0,30,0906-8-15-20-76-14-11-0,C5128298,Mill-Max Manufacturing Corp.,0906-8-15-20-76-14-11-0,ED1125-ND,Existing mapping,"30 through-hole spring contacts. Quote procurement, insertion and soldering separately; confirm contact height and alignment."
+Q1,SUM110P08-11L-E3,1,SUM110P08-11L-E3,C2838509,Vishay Siliconix,SUM110P08-11L-E3,SUM110P08-11L-E3CT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+Q2,DMP45H4D9HK3-13,1,DMP45H4D9HK3-13,,Diodes Incorporated,DMP45H4D9HK3-13,31-DMP45H4D9HK3-13CT-ND,Source by MPN,Quote exact manufacturer part; LCSC mapping not verified. Include sourcing/handling fees.
+Q3,TO-263-2,1,SIHB068N60EF-GE3,C3009875,Vishay Siliconix,SIHB068N60EF-GE3,742-SIHB068N60EF-GE3-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"R1, R2",0603,2,1K,C22548,YAGEO,RC0603FR-071KL,311-1.00KHRCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"R10, R11, R8",0805,3,332K,,YAGEO,RT0805BRD07332KL,YAG1869CT-ND,Source by MPN,Quote exact manufacturer part; LCSC mapping not verified. Include sourcing/handling fees.
+"R12, R14, R17, R20, R21, R25, R3, R4",0603,8,10K,C20161635,YAGEO,RC0603BR-0710KL,13-RC0603BR-0710KLCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+R13,2512,1,1R,C840599,Bourns Inc.,CRM2512-JW-1R0ELF,CRM2512-JW-1R0ELFCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"R15, R19, R26",0603,3,100R,C105588,YAGEO,RC0603FR-07100RL,311-100HRCT-ND,Corrected mapping,"Upstream PR #5: 100 ohm 0603, 1%, 0.1 W. C105588 / RC0603FR-07100RL. Reel variant updated in source metadata."
+"R16, R27",2512,2,1K,C7038808,YAGEO,RC2512JK-7W1KL,13-RC2512JK-7W1KLCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"R18, R28, R29",0603,3,2.2K,C3032396,YAGEO,RC0603FR-132K2L,13-RC0603FR-132K2LCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"R22, R23",2512,2,12K,C2082818,TE Connectivity Passive Product,CRGP2512F12K,A130734CT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"R24, R7, R9",2512,3,10R,,YAGEO,SR2512JK-7W10RL,YAG5928CT-ND,Source by MPN,Quote exact manufacturer part; LCSC mapping not verified. Include sourcing/handling fees.
+"R5, R6",0603,2,255K,C295887,YAGEO,RC0603FR-07255KL,311-255KHRCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+"U4, U6, U7",UCC23313BDWYR,3,UCC23313BDWYR,C2868027,Texas Instruments,UCC23313BDWYR,296-UCC23313BDWYRCT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.
+U5,TMCS1133C3AQDVGR,1,TMCS1133C1A,C32266987,Texas Instruments,TMCS1133C1AQDVGR,296-TMCS1133C1AQDVGRCT-ND,Existing mapping,"Use TMCS1133C1AQDVGR (25mV/A). C3 in footprint name is a legacy name, not permission to substitute C3 sensitivity."
+U8,SC0915,1,SC0915,C7203002,Raspberry Pi,SC0915,2648-SC0915CT-ND,Existing mapping,Existing catalog mapping; supplier must confirm exact MPN and availability.

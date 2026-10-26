@@ -1,4 +1,7 @@
 # OS Files
+node_modules/
+__pycache__/
+outputs/
 .DS_Store
 Thumbs.db
 Desktop.ini

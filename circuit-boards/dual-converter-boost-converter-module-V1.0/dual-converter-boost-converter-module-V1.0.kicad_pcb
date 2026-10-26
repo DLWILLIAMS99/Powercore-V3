@@ -2268,7 +2268,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C375525"
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3121,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Manufacturer#" "AT0603BRD0749K3L"
+		(property "Manufacturer#" "RT0603BRD0749K3L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5745,7 +5745,7 @@
 				)
 			)
 		)
-		(property "Manufacturer#" "13-RC0603FR-132K2LCT-ND"
+		(property "Manufacturer#" "RC0603FR-132K2L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7887,7 +7887,7 @@
 				)
 			)
 		)
-		(property "Manufacturer#" "TDK Corporation"
+		(property "Manufacturer#" "C5750X6S2W225KT000N"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10391,7 +10391,7 @@
 				)
 			)
 		)
-		(property "Manufacturer#" "TDK Corporation"
+		(property "Manufacturer#" "C5750X6S2W225KT000N"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13071,7 +13071,7 @@
 				)
 			)
 		)
-		(property "Manufacturer#" "13-RC0603FR-132K2LCT-ND"
+		(property "Manufacturer#" "RC0603FR-132K2L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -18084,7 +18084,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay Siliconix"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24012,7 +24012,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer#" "RC0603FR-10100RL"
+		(property "Manufacturer#" "RC0603FR-07100RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24040,7 +24040,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor#" "13-RC0603FR-10100RLCT-ND"
+		(property "Distributor#" "311-100HRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24068,7 +24068,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part #" "C20161635"
+		(property "LCSC Part #" "C105588"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -29594,7 +29594,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer#" "RES 1K OHM 5% 2W 2512"
+		(property "Manufacturer#" "RC2512JK-7W1KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37161,7 +37161,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer#" "RC0603FR-10100RL"
+		(property "Manufacturer#" "RC0603FR-07100RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37189,7 +37189,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor#" "13-RC0603FR-10100RLCT-ND"
+		(property "Distributor#" "311-100HRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37217,7 +37217,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part #" "C20161635"
+		(property "LCSC Part #" "C105588"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41230,7 +41230,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer#" "RC0603FR-10100RL"
+		(property "Manufacturer#" "RC0603FR-07100RL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41258,7 +41258,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor#" "13-RC0603FR-10100RLCT-ND"
+		(property "Distributor#" "311-100HRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41286,7 +41286,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part #" "C20161635"
+		(property "LCSC Part #" "C105588"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42702,7 +42702,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer#" "RES 1K OHM 5% 2W 2512"
+		(property "Manufacturer#" "RC2512JK-7W1KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
