@@ -1,5 +1,11 @@
 {
   "scope": "Quotation only; existing Gerbers unchanged; PCB properties updated without geometry edits.",
+  "preferred_quote": {
+    "outer_copper": "2 oz finished copper on F.Cu and B.Cu of all four boards; nominal 70 micrometres after plating",
+    "inner_copper": "Retain source stackup below; document any supplier proposal",
+    "condition": "Supplier DFM must confirm trace/space, pads, annular rings and stackup compatibility before ordering",
+    "comparison": "Separately quote original source outer copper; copper arrays below describe the source, not the preferred quote"
+  },
   "boards": [
     {
       "board": "boost-converter-module",

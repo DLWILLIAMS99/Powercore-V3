@@ -100,8 +100,8 @@ overview.getRange(`A5:G${summary.length+4}`).values=summary;
 overview.getRange('A12').values=[['HOLD: motherboard L1 bead identity requires a design decision before assembly.']];
 overview.getRange('A14').values=[['Motherboard U1/U2/U3 are the three daughterboards above; exclude from purchased parts.']];
 overview.getRange('A16').values=[['Cost request: 1 complete set, plus 5-set comparison. Include sourcing, setup, assembly, inspection, shipping and tax.']];
-overview.getRange('A18').values=[['Copper thickness is preserved in each board manifest; confirm stackup, finish and assembly process with supplier.']];
-overview.getRange('A20').values=[['Copper question: source says 35um outer copper; upstream issue #4 describes 2oz motherboard. Request both quote options.']];
+overview.getRange('A18').values=[['Preferred quote: 2oz finished outer copper on all four boards, subject to supplier DFM; retain source inner stackup.']];
+overview.getRange('A20').values=[['Source files remain at 35um outer copper. Quote that stackup separately; 2oz is a proposed fabrication change.']];
 detail.getRange(`A1:K${all.length}`).setNumberFormat('@');
 // Explicit units prevent automatic display coercion of 0402/0603/0805 IDs.
 const displayRows=all.map((row,i)=>row.map((v,j)=>i>0&&j===2&&/^0\d{3}$/.test(String(v))?`${v} (imperial)`:v));
@@ -137,5 +137,5 @@ for(const name of ['Board summary','Quote BOM']){
 const book=await SpreadsheetFile.exportXlsx(wb);
 const bookDir=path.join(root,'outputs','powercore-bom-review');await fs.mkdir(bookDir,{recursive:true});
 await book.save(path.join(bookDir,'quote-review.xlsx'));
-await fs.writeFile(path.join(output,'board-manifest.json'),JSON.stringify({scope:'Quotation only; existing Gerbers unchanged; PCB properties updated without geometry edits.',boards:summaries},null,2)+'\n');
+await fs.writeFile(path.join(output,'board-manifest.json'),JSON.stringify({scope:'Quotation only; existing Gerbers unchanged; PCB properties updated without geometry edits.',preferred_quote:{outer_copper:'2 oz finished copper on F.Cu and B.Cu of all four boards; nominal 70 micrometres after plating',inner_copper:'Retain source stackup below; document any supplier proposal',condition:'Supplier DFM must confirm trace/space, pads, annular rings and stackup compatibility before ordering',comparison:'Separately quote original source outer copper; copper arrays below describe the source, not the preferred quote'},boards:summaries},null,2)+'\n');
 console.log(JSON.stringify({physicalComponents:summaries.reduce((s,b)=>s+b.components,0),quoteRows:all.length-1,workbook:path.join(bookDir,'quote-review.xlsx')}));
